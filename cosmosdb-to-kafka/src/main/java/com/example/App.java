@@ -20,9 +20,9 @@ import com.mongodb.client.MongoDatabase;
 public class App {
 
     // CosmosDB for MongoDB API connection string
-    static ConnectionString theconnectionstring = new ConnectionString("mongodb://adrianmongoapi:aPjh8ZNDMR6MVXCONX38w434ksCsIdXrbBWbYxeF7j8GRArL7bDNmTrMo9WWwljc5iGJ0CS91al4ACDbutYOIA==@adrianmongoapi.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@adrianmongoapi@");
-    private static final String DATABASE_NAME = "stressazuredb2";
-    private static final String COLLECTION_NAME = "somecol2";
+    static ConnectionString theconnectionstring = new ConnectionString("<yourconnectionstring>");
+    private static final String DATABASE_NAME = "<yourdbname>";
+    private static final String COLLECTION_NAME = "<yourcollectioname>";
 
     // Kafka configuration
     private static final String KAFKA_BROKER = "PLAINTEXT://broker:29092,PLAINTEXT_HOST://localhost:9092";
